@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["dom", "esnext"],
+    "outDir": "./dist",
+    "plugins": [
+      {
+        "transform": "io-ts-transformer/transformer"
+      }
+    ]
+  }
+}

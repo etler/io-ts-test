@@ -1,0 +1,17 @@
+{
+  "name": "io-ts-test",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "fp-ts": "^2.10.5",
+    "io-ts": "^2.2.16",
+    "io-ts-transformer": "^1.1.8",
+    "resolve": "^1.20.0",
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "yarn ttsc"
+  }
+}
