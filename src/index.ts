@@ -1,4 +1,4 @@
-import { buildDecoder } from "io-ts-transformer"
+import { userValidator } from "./validators"
+import { user } from "./schema"
 
-
-export const idValidator = buildDecoder<string>()
+const age = user.age
